@@ -37,7 +37,7 @@ def webhook():
         ### ...
 
         if parameters.get('Genre')[0]=='science':
-            booktitle = "A science book"
+            booktitle = "A fiction"
             fulfillmentText= "Sure! Based on your interest in {genre}, I would recommend {title}. What would you like to do next? Do you want to check its publication date, review rating score, or discover similar books we recommend?".format(genre=parameters['Genre'][0], title=booktitle)
         else:
             fulfillmentText = "Sorry, I don't understand what you mean."
