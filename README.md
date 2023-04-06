@@ -23,14 +23,24 @@ To get started with the project, you'll need to do the following:
 2. Install the required packages by running `pip install -r requirements.txt`
 3. Download the necessary data files and models by running `python download_data.py`
 4. Run the training algorithm by `python Recommend_using_TFIDF.py` or `python Recommend_using_BERT.py`(Recommentd TFIDF since BERT need more time and processing ability of computer)
-5. Run the `app.py` to connect to Dialogflow
+5. Install `ngrok`
 
 
 ## Usage
 
 To use the book recommendation chatbot, you'll need to run the `app.py` file. You can do this by running the command `python app.py` in the terminal.
 
+Open `ngrok` and set `ngork http 5000` to generate a `link` that can be used by Dialogflow.
+
+Input the `link` to the Fulfillment `url` with `/webhook/` (xxxxxxx.com/webhook)
+
 Once the chatbot is running, you can interact with it by opening a web browser and navigating to `http://localhost:5000`.
+
+Now you  can start chatting by open a demo on `integrations`  
+
+enjoy :)
+
+
 
 ## Contributing
 
