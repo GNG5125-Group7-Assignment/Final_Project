@@ -2,7 +2,8 @@
 
 This repository contains the code for the final project of GNG5125 Group 7. 
 
-The project is a book recommendation chatbot that uses natural language processing techniques to suggest books to users based on their interests.
+The project is a book recommendation chatbot that uses natural language processing techniques to suggest books to users based on Amazon data set:
+`https://www.kaggle.com/datasets/mohamedbakhet/amazon-books-reviews`
 
 Group  members:
 
